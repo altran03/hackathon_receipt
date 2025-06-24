@@ -166,6 +166,7 @@ ${text}`
       try {
         jsonData = JSON.parse(textContent);
       } catch (parseError) {
+        console.error("The AI returned the following text which could not be parsed as JSON:", textContent);
         throw new Error("Could not parse the structured data from the AI's response.");
       }
       setStructuredData(jsonData);
