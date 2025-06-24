@@ -39,10 +39,10 @@ Create a `.env` file in the root directory with the following variables:
 
 ```env
 # Google Cloud Vision API Key
-REACT_APP_GOOGLE_CLOUD_VISION_API_KEY=your_google_cloud_vision_api_key_here
+GOOGLE_CLOUD_VISION_API_KEY=your_google_cloud_vision_api_key_here
 
 # Anthropic API Key (for AI analysis)
-REACT_APP_ANTHROPIC_API_KEY=your_anthropic_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
 
 # Supabase Configuration
 REACT_APP_SUPABASE_URL=your_supabase_url_here
